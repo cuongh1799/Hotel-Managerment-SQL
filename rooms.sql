@@ -9,5 +9,5 @@ insert into room values(104, 'Family', 450000, 'N');
 insert into room values(105, 'Business', 290000, 'Y');
 insert into room values(106, 'Business', 350000, 'Y');
 insert into room values(107, 'Standard', 230000, 'N');
-insert into room values(108, 'Family', 6000000, 'Y');
-insert into room values(109, 'Business', 2800000, 'N');
+insert into room values(108, 'Family', 600000, 'Y');
+insert into room values(109, 'Business', 280000, 'N');
