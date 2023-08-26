@@ -3,7 +3,7 @@ create table bills (
     rID int, 
     sID int,
     cName varchar(100),
-    price int
-    foreign key rID reference rooms;
-    foreign key sID reference services;
+    price int,
+    foreign key (rID) references room(rID),
+    foreign key (sID) references services(sID)
 );
