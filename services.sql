@@ -1,8 +1,8 @@
 create table services(
 	sID int,
     Service_name varchar(100),
-    price int.
-    service_img varchar(3000
+    price int,
+    service_img varchar(3000)
 );
 
 insert into services values(1, 'Breakfast buffet', 70000, 'https://images.pexels.com/photos/2612114/pexels-photo-2612114.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');

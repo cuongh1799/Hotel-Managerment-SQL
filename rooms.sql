@@ -1,6 +1,12 @@
 -- NOTE: BOOLEAN DOESN'T EXIST IN ORACLE, SO SOLUTION IS varchar(1) WHICH IS EITHER 'Y' OR 'N'
 
-create table room(rID int, category varchar(50), price_per_day int, availability varchar(1), Room_IMG varchar(300));
+create table room(
+	rID int not null primary key, 	
+    category varchar(50), 
+    price_per_day int, 
+    availability varchar(1), 
+    Room_IMG varchar(300)
+);
 insert into room values(100, 'Family', 500000, 'Y', 'https://www.landmarklondon.co.uk/wp-content/uploads/2019/05/Executive-Family-1800x1200-1.jpg' );
 insert into room values(101, 'Business', 300000, 'N', 'https://res.cloudinary.com/traveltripperweb/image/upload/c_limit,f_auto,h_2500,q_auto,w_2500/v1643732012/lsedhhc48clt6jqatp7x.jpg');
 insert into room values(102, 'Standard', 200000, 'Y', 'https://amorgoshotel.com/wp-content/uploads/2014/12/Amorgos-Standard-Room1-e1464286427430.jpg');
