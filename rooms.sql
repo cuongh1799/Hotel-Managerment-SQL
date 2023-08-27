@@ -3,7 +3,7 @@
 create table room(
 	rID int not null primary key, 	
     category varchar(50), 
-    price_per_day int, 
+    price int, 
     availability varchar(1), 
     Room_IMG varchar(300)
 );
