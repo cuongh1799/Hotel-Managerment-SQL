@@ -1,5 +1,5 @@
 create table services(
-	sID int,
+	sID int primary key,
     Service_name varchar(100),
     price int,
     service_img varchar(3000)
